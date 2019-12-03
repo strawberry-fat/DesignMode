@@ -18,6 +18,15 @@ import factoryMode.interfaces.Shape;
  */
 public class TestDemo {
     public static void main(String[] args) {
-        System.out.println("123");
+        //创建工厂类
+        ShapeFactory shapeFactory = new ShapeFactory();
+        //利用工厂生产shape
+        Shape shape = shapeFactory.getShape("Circle");
+        Shape shape1 = shapeFactory.getShape("Rectangle");
+        Shape shape2 = shapeFactory.getShape("Square");
+        //分别调用draw()方法
+        shape.draw();
+        shape1.draw();
+        shape2.draw();
     }
 }
