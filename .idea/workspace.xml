@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6bdebb9-3e6a-4cfc-a837-a6b10f03dcec" name="Default Changelist" comment="设计模式之单例模式">
+    <list default="true" id="c6bdebb9-3e6a-4cfc-a837-a6b10f03dcec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,14 +73,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -153,7 +153,8 @@
       <workItem from="1575353168443" duration="614000" />
       <workItem from="1575361380562" duration="4000" />
       <workItem from="1575361403595" duration="4284000" />
-      <workItem from="1575365842686" duration="17000" />
+      <workItem from="1575365842686" duration="3708000" />
+      <workItem from="1575423761120" duration="1619000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用git">
       <created>1575337854663</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575365597529</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="设计模式之单例模式">
+      <created>1575365957866</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575365957866</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,14 +262,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="设计模式之单例模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575365942433">
+    <state x="361" y="73" key="#Project_Structure" timestamp="1575428295147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575365942433" />
+    <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575428295147" />
+    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575365955701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575365955701" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1575361529209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1575361529209" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1575366393716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575366393716" />
     <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575361761193">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,17 +294,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575361761192" />
-    <state x="272" y="57" key="SettingsEditor" timestamp="1575365859523">
+    <state x="272" y="0" key="SettingsEditor" timestamp="1575366011635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575365859523" />
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1575366011635" />
     <state x="651" y="331" key="VCS.EditChangelistDialog" timestamp="1575365771107">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="331" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1575365771107" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575365607249">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575365960322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575365607249" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575365960322" />
   </component>
 </project>
