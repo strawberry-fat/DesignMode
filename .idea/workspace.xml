@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bdebb9-3e6a-4cfc-a837-a6b10f03dcec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/interfaces/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/interfaces/SDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/Singleton5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/META-INF/DesignMode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/TestAbstractFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/HpDesktopComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/HpNoteComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/LenovoDesktop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/LenovoNote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computetinterface/DesktComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computetinterface/NotebookComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factory/HpFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factory/LenovoFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factoryinterface/ComputerAbstrFactoryInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/ShapeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/TestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/interfaces/Shape.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -197,7 +172,7 @@
       <workItem from="1575423761120" duration="4798000" />
       <workItem from="1575454899267" duration="624000" />
       <workItem from="1575513218917" duration="102000" />
-      <workItem from="1575526328240" duration="1566000" />
+      <workItem from="1575526328240" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用git">
       <created>1575337854663</created>
@@ -262,7 +237,28 @@
       <option name="project" value="LOCAL" />
       <updated>1575431430020</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="设计模式之抽象工厂">
+      <created>1575527927134</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575527927135</updated>
+    </task>
+    <task id="LOCAL-00011" summary="设计模式之抽象工厂">
+      <created>1575528053983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575528053983</updated>
+    </task>
+    <task id="LOCAL-00012" summary="设计模式之抽象工厂">
+      <created>1575528066812</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575528066812</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,10 +320,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575428295147" />
-    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575528051518">
+    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575530356093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575528051518" />
+    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575530356093" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1575361529209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -360,9 +356,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="331" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1575365771107" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575527933709">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575528068347">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575527933709" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575528068347" />
   </component>
 </project>
