@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bdebb9-3e6a-4cfc-a837-a6b10f03dcec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/singleton/Singleton5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/impl/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/impl/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/impl/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/adapter/impl/VlcPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/interfaces/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/interfaces/MediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/interfaces/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/interfaces/AdvancedMediaPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,13 +92,26 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TestAbstractFactory">
+  <component name="RunManager" selected="Application.TestDemo (1)">
     <configuration name="TestAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractFactory.TestAbstractFactory" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="abstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adapter.TestDemo" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo (1)" />
         <item itemvalue="Application.TestAbstractFactory" />
         <item itemvalue="Application.TestDemo" />
       </list>
@@ -172,7 +192,7 @@
       <workItem from="1575423761120" duration="4798000" />
       <workItem from="1575454899267" duration="624000" />
       <workItem from="1575513218917" duration="102000" />
-      <workItem from="1575526328240" duration="3878000" />
+      <workItem from="1575526328240" duration="7033000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用git">
       <created>1575337854663</created>
@@ -258,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575528066812</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="设计模式之单例模式">
+      <created>1575530366793</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575530366793</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,15 +338,19 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <MESSAGE value="尝试使用git" />
     <MESSAGE value="设计模式之工厂模式" />
-    <MESSAGE value="设计模式之单例模式" />
     <MESSAGE value="设计模式之抽象工厂" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式之抽象工厂" />
+    <MESSAGE value="设计模式之单例模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式之单例模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="73" key="#Project_Structure" timestamp="1575428295147">
+    <state x="361" y="73" key="#Project_Structure" timestamp="1575533396351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575428295147" />
+    <state x="361" y="73" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1575533396351" />
+    <state x="523" y="58" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575531427052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="58" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1575531427052" />
     <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575530356093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -356,9 +387,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="331" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1575365771107" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575528068347">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575530370446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575528068347" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575530370446" />
   </component>
 </project>
