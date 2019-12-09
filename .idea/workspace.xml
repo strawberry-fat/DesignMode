@@ -2,14 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6bdebb9-3e6a-4cfc-a837-a6b10f03dcec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/impl/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/impl/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/impl/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/impl/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/META-INF/DesignMode.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/TestAbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/HpDesktopComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/HpNoteComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/LenovoDesktop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computer/LenovoNote.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computetinterface/DesktComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/computetinterface/NotebookComputer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factory/HpFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factory/LenovoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/abstractFactory/factoryinterface/ComputerAbstrFactoryInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/TestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/impl/AudioPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/impl/MediaAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/impl/Mp4Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/impl/VlcPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/interfaces/AdvancedMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/adapter/interfaces/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/ShapeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/TestDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/factoryClass/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/factoryMode/interfaces/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/singleton/Singleton5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/interfaces/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/interfaces/MediaPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/interfaces/SDCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/interfaces/AdvancedMediaPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +106,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -192,7 +218,8 @@
       <workItem from="1575423761120" duration="4798000" />
       <workItem from="1575454899267" duration="624000" />
       <workItem from="1575513218917" duration="102000" />
-      <workItem from="1575526328240" duration="7033000" />
+      <workItem from="1575526328240" duration="7595000" />
+      <workItem from="1575877539278" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="尝试使用git">
       <created>1575337854663</created>
@@ -285,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575530366793</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="设计模式之适配器模式">
+      <created>1575533436495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575533436495</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +374,8 @@
     <MESSAGE value="设计模式之工厂模式" />
     <MESSAGE value="设计模式之抽象工厂" />
     <MESSAGE value="设计模式之单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式之单例模式" />
+    <MESSAGE value="设计模式之适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式之适配器模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="73" key="#Project_Structure" timestamp="1575533396351">
@@ -351,34 +386,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="523" y="58" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1575531427052" />
-    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575530356093">
+    <state x="385" y="9" key="CommitChangelistDialog2" timestamp="1575533434422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575530356093" />
+    <state x="385" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575533434422" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1575361529209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1575361529209" />
-    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1575366393716">
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1575533889951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575366393716" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575441143790">
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575533889951" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575533947301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575441143790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575441143790">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575533947301" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575533947301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575441143790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575441143790">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575533947301" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575533947301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575441143790" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575441143790">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575533947301" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575533947301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575441143790" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575533947301" />
+    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1575533940021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1575533940021" />
     <state x="272" y="0" key="SettingsEditor" timestamp="1575366011635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -387,9 +426,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="331" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1575365771107" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575530370446">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1575533438365">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575530370446" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575533438365" />
   </component>
 </project>
